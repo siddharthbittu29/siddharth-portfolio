@@ -40,30 +40,38 @@ function Navbar() {
           <a href="#projects" onClick={closeMenu}>Projects</a>
           <a href="#achievements" onClick={closeMenu}>Achievements</a>
           <a href="#contact" onClick={closeMenu}>Contact</a>
+
+          <a
+            href="mailto:siddharthchaturvedibittu29@gmail.com"
+            className="mobile-connect"
+            onClick={closeMenu}
+          >
+            Let's Connect ↗
+          </a>
         </nav>
 
         {/* Actions */}
         <div className="nav-actions">
 
           <a
-            href="https://github.com/"
-            target="_blank"
-            rel="noreferrer"
-            className="nav-icon"
-            aria-label="GitHub"
-          >
-            <FiGithub />
-          </a>
+              href="https://github.com/siddharthbittu29"
+              target="_blank"
+              rel="noreferrer"
+              className="nav-icon"
+              aria-label="GitHub"
+            >
+              <FiGithub />
+            </a>
 
-          <a
-            href="https://www.linkedin.com/"
-            target="_blank"
-            rel="noreferrer"
-            className="nav-icon"
-            aria-label="LinkedIn"
-          >
-            <FiLinkedin />
-          </a>
+            <a
+                href="https://www.linkedin.com/in/siddharth-chaturverdi-2a0311359/"
+                target="_blank"
+                rel="noreferrer"
+                className="nav-icon"
+                aria-label="LinkedIn"
+              >
+                <FiLinkedin />
+              </a>
 
           <button
             className="theme-toggle"
@@ -73,9 +81,11 @@ function Navbar() {
             {darkMode ? <FiSun /> : <FiMoon />}
           </button>
 
-          <a href="#contact" className="nav-connect">
-            Let's Connect
-            <span>↗</span>
+         <a
+            href="mailto:siddharthchaturvedibittu29@gmail.com"
+            className="nav-cta"
+          >
+            Let's Connect ↗
           </a>
 
           {/* Mobile menu */}

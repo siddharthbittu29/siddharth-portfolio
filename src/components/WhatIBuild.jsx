@@ -53,7 +53,7 @@ const categories = [
 
 function WhatIBuild() {
   return (
-    <section className="what-build-section" id="about">
+    <section className="what-build-section" id="what-i-build">
 
       <div className="section-container">
 
