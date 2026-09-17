@@ -43,6 +43,7 @@ function Hero() {
             real-world problems into practical software solutions.
           </p>
 
+          {/* CTA BUTTONS */}
           <div className="hero-buttons">
 
             <a href="#projects" className="primary-button">
@@ -51,9 +52,8 @@ function Hero() {
             </a>
 
             <a
-              href="/resume/SiddharthResume.pdf"
-              target="_blank"
-              rel="noreferrer"
+              href="/SiddharthResume.pdf"
+              download="SiddharthResume.pdf"
               className="secondary-button"
             >
               Download Resume
@@ -68,7 +68,7 @@ function Hero() {
             <span>Find me on</span>
 
             <a
-              href="https://github.com/"
+              href="https://github.com/siddharthbittu29"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
@@ -77,7 +77,7 @@ function Hero() {
             </a>
 
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/siddharth-chaturverdi-2a0311359/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
