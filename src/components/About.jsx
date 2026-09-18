@@ -6,6 +6,7 @@ const About = () => {
     <section className="about-section" id="about">
       <div className="about-container">
 
+        {/* SECTION HEADING */}
         <motion.div
           className="about-heading"
           initial={{ opacity: 0, y: 30 }}
@@ -22,11 +23,36 @@ const About = () => {
           </h2>
         </motion.div>
 
+        {/* ABOUT CONTENT */}
         <div className="about-content">
 
+          {/* PROFESSIONAL PHOTO */}
+          <motion.div
+            className="about-profile"
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+          >
+            <div className="about-profile-glow"></div>
+
+            <div className="about-profile-frame">
+              <img
+                src="/profile/siddharth-profile.png"
+                alt="Siddharth Chaturvedi"
+              />
+            </div>
+
+            <div className="about-profile-caption">
+              <span className="profile-dot"></span>
+              CSE-AIML · Software Engineering
+            </div>
+          </motion.div>
+
+          {/* ABOUT TEXT */}
           <motion.div
             className="about-text"
-            initial={{ opacity: 0, x: -40 }}
+            initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
@@ -51,6 +77,7 @@ const About = () => {
             </p>
           </motion.div>
 
+          {/* ABOUT CARDS */}
           <motion.div
             className="about-cards"
             initial={{ opacity: 0, x: 40 }}
@@ -63,6 +90,7 @@ const About = () => {
               <div className="about-icon">
                 <FaGraduationCap />
               </div>
+
               <div>
                 <h3>Education</h3>
                 <p>B.Tech · CSE-AIML</p>
@@ -73,6 +101,7 @@ const About = () => {
               <div className="about-icon">
                 <FaCode />
               </div>
+
               <div>
                 <h3>Development</h3>
                 <p>Full-Stack · Software Engineering</p>
@@ -83,6 +112,7 @@ const About = () => {
               <div className="about-icon">
                 <FaBrain />
               </div>
+
               <div>
                 <h3>Interests</h3>
                 <p>AI/ML · DSA · Intelligent Systems</p>

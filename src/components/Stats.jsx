@@ -8,7 +8,7 @@ import {
 
 const stats = [
   {
-    value: "3",
+    value: "3+",
     label: "End-to-End Projects",
     icon: <FiCode />,
   },
@@ -23,8 +23,8 @@ const stats = [
     icon: <FiBookOpen />,
   },
   {
-    value: "1",
-    label: "Patent Application",
+    value: "2",
+    label: " Registered Designs",
     icon: <FiCpu />,
   },
 ];
